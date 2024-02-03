@@ -14,7 +14,7 @@
               {{ item.title }}
             </template>
             <template v-else-if="item.url.startsWith('icon-')">
-                <i :class='["iconfont", item.url]'></i>              
+                <i :class='["iconfont", item.url]'></i>
             </template>
             <template v-else>
               <img class="iconfont" :src="item.url" alt=""/>
@@ -48,6 +48,7 @@ export default {
             {
               id: "2-1",
               title: "合营模式",
+              href:"/joint-venture-model"
             },
             {
               id: "2-2",
@@ -178,7 +179,7 @@ export default {
           // 水平
           classStr += ' items-center horizontal'
         }else{
-          // 垂直 
+          // 垂直
           classStr += ' flex-col vertical'
         }
       }

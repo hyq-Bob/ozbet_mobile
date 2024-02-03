@@ -2,7 +2,7 @@
   <van-button @click="btnClick" v-if="nativeType" :style="styleObj" :class='[className]' round block type="info" native-type="submit">
     <slot>{{ name }}</slot>
   </van-button>
-  <van-button @click="btnClick" v-else :style="styleObj" :class='[className]' :round="round" :block="block" type="info">
+  <van-button @click="btnClick" v-else :plain='plain' :style="styleObj" :class='[className]' :round="round" :block="block" type="info">
     <slot>{{ name }}</slot>
   </van-button>
 </template>
@@ -10,6 +10,10 @@
 export default {
   name: "Button",
   props: {
+    plain:{
+      type: Boolean,
+      default: false,
+    },
     styleObj:{
       type:Object,
       default: ()=> ({})
