@@ -1,0 +1,26 @@
+.light{
+  --blue:#0385F2;
+  --gray:#fafafa;
+  --gray1:#C5CAD0;
+  --gray2:#576673;
+  --c2:#222;
+  --c3:#333;
+  --c6:#666;
+  --c9:#999;
+  --c_f:#fff;
+  --c_fd:#fdfdfd;
+  --c_gray:#dcdee0;
+  --c_a:#aaa;
+  --c_black:#121A23;
+  --red:#ee0a24;
+  --red1:#f00;
+  --bg_f7:#f7f7f7;
+  --bg_f2:#F2F2F2;
+  --bg_e6:#e6e6e6;
+  --yellow:#ffc300;
+  --yellow1:#fcc12d;
+  --white:#fff5e7;
+  --bg_01:hsla(213, 10%, 79%, 0.1);
+  --bg-gray_01:rgba(3, 133, 242, 0.1);
+  --bg_d8: 216, 216, 216; /*  d8d8d8 */
+}

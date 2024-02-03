@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1首页_未登录" transform="translate(-53, -3682)" fill-rule="nonzero">
+            <g id="编组-33备份-3" transform="translate(30, 3590)">
+                <g id="编组" transform="translate(23, 92)">
+                    <path d="M80,39.9972 C80,17.9076 62.0928,0 40,0 C17.908,0 0,17.9076 0,39.9972 C0,62.0876 17.908,80 40,80 C62.0928,80 80,62.0876 80,39.9972" id="路径" fill="#C5CAD0"></path>
+                    <path d="M44.1776,29.8196 L44.1776,26.1352 C44.1776,24.3404 45.3752,23.9212 46.2136,23.9212 L51.3848,23.9212 L51.3848,16.032 L44.2652,16 C36.3628,16 34.5684,21.8872 34.5684,25.6568 L34.5684,29.82 L30,29.82 L30,39.036 L34.608,39.036 L34.608,62.072 L43.8216,62.072 L43.8216,39.036 L50.6604,39.036 L51.5016,29.8196 L44.1776,29.8196 Z" id="路径" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

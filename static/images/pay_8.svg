@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1首页_未登录" transform="translate(-273, -3340)" fill-rule="nonzero">
+            <g id="编组-33备份-2" transform="translate(30, 3248)">
+                <g id="编组" transform="translate(243, 92)">
+                    <path d="M40,0 C62.09375,0 80,17.90625 80,40 C80,62.09375 62.09375,80 40,80 C17.90625,80 0,62.09375 0,40 C0,17.90625 17.90625,0 40,0 Z" id="路径" fill="#C5CAD0"></path>
+                    <polygon id="路径" fill="#FFFFFF" points="23.2734375 59.6953125 34.9921875 17.34375 47.53125 17.34375 38.15625 52.109375 58.28125 52.109375 56.71875 59.6875 23.2734375 59.6875"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="49.859375 35.515625 21.734375 46.453125 21.734375 41.765625 49.859375 30.828125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<template>
+  <div class="-open_icon" @click="$emit('open')">
+    <svg width="100%" height="100%" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>菜单</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1首页_未登录" transform="translate(-30, -138)">
+            <g id="菜单" transform="translate(30, 138)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="44" height="44"></rect>
+                <g id="编组-4备份" transform="translate(6, 9)" fill="#121A23">
+                    <rect id="矩形" x="0" y="0" width="32" height="4" rx="2"></rect>
+                    <rect id="矩形备份-5" x="0" y="11.5" width="32" height="4" rx="2"></rect>
+                    <rect id="矩形备份-7" x="0" y="23" width="32" height="4" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+  </div>
+</template>
+
+<script>
+export default {
+  name:"Open"
+}
+</script>
+<style lang="scss" scoped>
+.-open_icon {
+  width: 44px;
+  height: 44px;
+}
+</style>

@@ -1,0 +1,184 @@
+{
+  "id": "4427877",
+  "name": "ozbet_mobile",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1397993",
+      "name": "Up",
+      "font_class": "Up",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "39179201",
+      "name": "左侧导航-下拉",
+      "font_class": "xiala",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "39169010",
+      "name": "sijiebei",
+      "font_class": "zuqiubeifen",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "39168484",
+      "name": "basketball",
+      "font_class": "basketball",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "39168488",
+      "name": "tiyu",
+      "font_class": "tiyu",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "39168487",
+      "name": "football",
+      "font_class": "football",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "39168486",
+      "name": "kaisai",
+      "font_class": "kaisai",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "39168473",
+      "name": "baseball",
+      "font_class": "baseball",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "39168479",
+      "name": "help",
+      "font_class": "help",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "39168483",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "39168481",
+      "name": "jinji",
+      "font_class": "jinji",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "39168470",
+      "name": "geren",
+      "font_class": "geren",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "39168485",
+      "name": "youhui",
+      "font_class": "youhui",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "39168482",
+      "name": "zixun",
+      "font_class": "zixun",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "39168480",
+      "name": "julebu",
+      "font_class": "julebu",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "39168478",
+      "name": "horn",
+      "font_class": "horn",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "39168477",
+      "name": "hero",
+      "font_class": "hero",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "39168475",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "39168472",
+      "name": "gunqiu",
+      "font_class": "gunqiu",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "39168476",
+      "name": "vip",
+      "font_class": "vip",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "39168474",
+      "name": "inline",
+      "font_class": "inline",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "39168471",
+      "name": "head",
+      "font_class": "head",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "39168492",
+      "name": "tennis",
+      "font_class": "tennis",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "39168490",
+      "name": "heying",
+      "font_class": "heying",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "39168491",
+      "name": "notice",
+      "font_class": "notice",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    }
+  ]
+}

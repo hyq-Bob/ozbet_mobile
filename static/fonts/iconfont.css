@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4427877 */
+  src: url('iconfont.woff2?t=1706848662375') format('woff2'),
+       url('iconfont.woff?t=1706848662375') format('woff'),
+       url('iconfont.ttf?t=1706848662375') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Up:before {
+  content: "\e610";
+}
+
+.icon-xiala:before {
+  content: "\e6c0";
+}
+
+.icon-zuqiubeifen:before {
+  content: "\e6ac";
+}
+
+.icon-basketball:before {
+  content: "\e6ad";
+}
+
+.icon-tiyu:before {
+  content: "\e6ae";
+}
+
+.icon-football:before {
+  content: "\e6af";
+}
+
+.icon-kaisai:before {
+  content: "\e6b0";
+}
+
+.icon-baseball:before {
+  content: "\e6b1";
+}
+
+.icon-help:before {
+  content: "\e6b2";
+}
+
+.icon-star:before {
+  content: "\e6b3";
+}
+
+.icon-jinji:before {
+  content: "\e6b4";
+}
+
+.icon-geren:before {
+  content: "\e6b5";
+}
+
+.icon-youhui:before {
+  content: "\e6b6";
+}
+
+.icon-zixun:before {
+  content: "\e6b7";
+}
+
+.icon-julebu:before {
+  content: "\e6b8";
+}
+
+.icon-horn:before {
+  content: "\e6b9";
+}
+
+.icon-hero:before {
+  content: "\e6ba";
+}
+
+.icon-search:before {
+  content: "\e6bb";
+}
+
+.icon-gunqiu:before {
+  content: "\e6bc";
+}
+
+.icon-vip:before {
+  content: "\e6bd";
+}
+
+.icon-inline:before {
+  content: "\e6be";
+}
+
+.icon-head:before {
+  content: "\e6bf";
+}
+
+.icon-tennis:before {
+  content: "\e6aa";
+}
+
+.icon-heying:before {
+  content: "\e6a9";
+}
+
+.icon-notice:before {
+  content: "\e6ab";
+}
+
