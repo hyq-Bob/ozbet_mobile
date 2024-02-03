@@ -10,7 +10,7 @@
         <span class="summary"> {{ item.summary }}</span>
       </li>
     </ul>
-    <Button name="合营模式申请" class="btn" :plain="true"></Button>
+    <Button name="合营模式申请" class="btn" @click='goApplication' :plain="true"></Button>
   </div>
 </template>
 
@@ -57,6 +57,9 @@ export default {
   methods: {
     goBack(){
       this.$router.go(-1)
+    },
+    goApplication(){
+      this.$router.push('/application-joint-venture-mode')
     }
   }
 };

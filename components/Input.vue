@@ -1,22 +1,48 @@
-
 <template>
-  <div class="flex items-center bg-[var(--gray)] _search h-[80px] rounded-[42px]" v-if="type == 'search'">
+  <div
+    class="flex items-center bg-[var(--gray)] _search h-[80px] rounded-[42px]"
+    v-if="type == 'search'"
+  >
     <slot name="left"></slot>
     <div class="flex flex-1">
       <van-field
-      :class='["border-0] bg-transparent active:border-[var(--blue)]", className]'
-      :style="styleObj" :value="value" :type="type" :disabled="disabled" :rules="rules" :name="name"
-      :placeholder="$t(placeholder)" @input="changeVal">
-      <template #button>
-        <slot name="btn"></slot>
-      </template>
-    </van-field>
+        :class="[
+          'border-0] bg-transparent active:border-[var(--blue)]',
+          className,
+        ]"
+        :style="styleObj"
+        :value="value"
+        :type="type"
+        :disabled="disabled"
+        :rules="rules"
+        :name="name"
+        :placeholder="$t(placeholder)"
+        @input="changeVal"
+      >
+        <template #button>
+          <slot name="btn"></slot>
+        </template>
+      </van-field>
     </div>
   </div>
-  <van-field v-else
-    :class='["h-[80px] rounded-[42px] bg-[var(--gray)] border border-solid border-[var(--gray1)] active:border-[var(--blue)]", className]'
-    :style="styleObj" :value="value" :type="type" :disabled="disabled" :rules="rules" :name="name"
-    :placeholder="$t(placeholder)" @input="changeVal">
+  <van-field
+    v-else
+    :class="[
+      type != 'textarea'?'h-[80px]':'',
+      'rounded-[42px] bg-[var(--gray)] border border-solid border-[var(--gray1)] active:border-[var(--blue)]',
+      className,
+    ]"
+    :style="styleObj"
+    :value="value"
+    :type="type"
+    :disabled="disabled"
+    :rows="rows"
+    :rules="rules"
+    :name="name"
+    :autosize="autosize"
+    :placeholder="$t(placeholder)"
+    @input="changeVal"
+  >
     <template #button>
       <slot name="btn"></slot>
     </template>
@@ -29,44 +55,60 @@ export default {
   props: {
     className: {
       type: String,
-      default: ""
+      default: "",
     },
     name: {
       type: String,
-      default: ""
+      default: "",
     },
     rules: {
       type: Array,
-      default: () => []
+      default: () => [],
     },
     styleObj: {
       type: Object,
-      default: function () { return {} }
+      default: function () {
+        return {};
+      },
+    },
+    rows:{
+      type:String,
+      default: '1'
+    },
+    autosize:{
+      type:Boolean|Object,
+      default : ()=> false
     },
     type: {
-      type: 'text' | "tel" | "digit" | "number" | "password" | 'search',
-      default: 'text'
+      type:
+        "text" |
+        "tel" |
+        "digit" |
+        "number" |
+        "password" |
+        "search" |
+        "textarea",
+      default: "text",
     },
     disabled: {
       type: Boolean,
-      default: false
-
+      default: false,
     },
     value: {
       type: String,
-      default: ''
+      default: "",
     },
     placeholder: {
       type: String,
-      default: 'placeholderEnter'
-    }
+      default: "placeholderEnter",
+    },
   },
   methods: {
     changeVal(value) {
-      this.$emit('input', value);
-    }
-  }
-}
+      this.$emit("input", value);
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
 :deep.van-cell {

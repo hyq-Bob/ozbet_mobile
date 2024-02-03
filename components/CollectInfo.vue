@@ -1,25 +1,32 @@
 <template>
   <van-form @submit="collectInfo">
     <div class="info" v-for="item in collectList">
-      <label class="title" v-if="item.name != 'agreement'">
-      {{ item.title }}
-    </label>
+      <label class="title" v-if="item.name != 'agreement' && item.title">
+        {{ item.title }}
+      </label>
       <template v-if="!['agreement', 'emailCode'].includes(item.name)">
         <Input
           :name="item.name"
+          :className="item.className"
           :placeholder="item.placeholder"
           :type="item.type"
+          :rows="item.rows"
+          :autosize="item.autosize"
           :rules="item.rules"
           v-model="item.value"
         />
       </template>
       <template v-else-if="item.name == 'agreement'">
-        <van-field name="checkbox" class="mt-[20px]" :class="[!item.value ? 'error':'']">
+        <van-field
+          name="checkbox"
+          class="mt-[20px]"
+          :class="[!item.value ? 'error' : '']"
+        >
           <template #input>
             <div @click="checkboxChange(item)" class="flex items-center">
-            <van-checkbox v-model="item.value" shape="square"/>
-            <span class="info agreement">{{ item.title }}</span>
-          </div>
+              <van-checkbox v-model="item.value" shape="square" />
+              <span class="info agreement">{{ item.title }}</span>
+            </div>
           </template>
         </van-field>
       </template>
@@ -60,24 +67,24 @@ export default {
       default: () => [],
     },
   },
-  components:{
-    CountdownTimer
+  components: {
+    CountdownTimer,
   },
-  data(){
+  data() {
     return {
-      isCheckbox: true
-    }
+      isCheckbox: true,
+    };
   },
   methods: {
     // 复选框回调
-    checkboxChange(crt){
-      crt.value = !crt.value
-     return
+    checkboxChange(crt) {
+      crt.value = !crt.value;
+      return;
     },
     // 信息收集
     collectInfo(values) {
-      if(values.checkbox){
-        this.$emit('onSubmit', values)
+      if (values.checkbox) {
+        this.$emit("onSubmit", values);
       }
     },
   },
